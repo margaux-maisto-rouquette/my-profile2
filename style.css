@@ -1,0 +1,128 @@
+/* colors and fonts */
+
+body {
+
+background: rgb(230, 230, 230);
+ Color: #111D5E ;
+font-family:  Helvetica;
+Font-size:  16px;
+font-weight: lighter ;
+}
+
+h1, h2, h3 { 
+  Font-family:  'Ubuntu',sans-serif;
+
+ }
+
+
+h1 {
+  Color: #480032;
+  Font-family: Arial;
+  Font-size:  50px;
+}
+
+h2 { 
+  Color: #23049D;
+  Font-family:  Courier;
+  Font-size:  24px;
+  Font-weight: Lighter; 
+ }
+
+
+ a { 
+  text-decoration: none;
+  color: red;
+  font-family: 'Ubuntu',sans-serif;
+  }
+a:hover {
+  color: blueviolet;
+}
+
+/* Custom designs with class */ 
+
+.Container{ 
+  width: 700px;
+  margin: 50px auto;
+}
+
+@media(max-width:  760px) {
+ .Container {
+  width: 600px;  
+ }
+}
+
+@media (max-width:  500px) {
+  .Container{
+    width: 400px;
+  }
+}
+
+
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow:  30px 30px 30px rgba(0, 0, 0,0.1);
+  border-radius: 5px;
+  text-align: center;
+  margin: 70px 50px;
+}
+
+.img-circle{
+  border-radius: 70%;
+}
+
+.btn-blue{
+  background-color: blueviolet;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover{
+  background-color: black;
+  color: white;
+}
+
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 60px;
+  color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+  background-color: #ECE0CD;
+  color: darkblue;
+}
+
+#introduction p{
+  margin-bottom: 60px;
+}
+
+
+ 
+@media(max-width: 960px) {
+  .Container{
+    width: 500px;
+  }
+}
+
+
+
+
+
+
+
+
+
